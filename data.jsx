@@ -22,7 +22,7 @@ const SITE = {
     headline: ["What I'm working on", "right now."],
     items: [
       { idx: "01", label: "Studying for CCNA 200-301", sub: "Subnetting drills, OSPF labs, packet captures", stat: "IN PROGRESS" },
-      { idx: "02", label: "Vector Gains v1.2", sub: "iOS fitness tracker — refining workout logging", stat: "SHIPPED" },
+      { idx: "02", label: "Vector Gains v1.7", sub: "iOS fitness tracker — refining workout logging", stat: "SHIPPED" },
       { idx: "03", label: "Network Simulator", sub: "Browser-native, Packet-Tracer-style topology builder", stat: "ALPHA" },
       { idx: "04", label: "Budget App", sub: "Personal banking + envelope budgeting on the web", stat: "BUILDING" },
       { idx: "05", label: "Roguelike D&D", sub: "Turn-based, procedural dungeons, dice mechanics", stat: "PROTOTYPING" },
@@ -131,12 +131,12 @@ const SITE = {
   ],
 
   certs: [
-    { name: "Microsoft Certified: Azure Administrator Associate", code: "AZ-104", year: "2024", status: "earned" },
-    { name: "Microsoft Certified: Azure Fundamentals", code: "AZ-900", year: "2023", status: "earned" },
-    { name: "Google Cybersecurity Professional Certificate", code: "GOOG-CYB", year: "2023", status: "earned" },
-    { name: "LPI Linux Essentials", code: "LPI-LE", year: "2023", status: "earned" },
-    { name: "Certified LogicMonitor Associate", code: "LM-A", year: "2024", status: "earned" },
     { name: "Cisco Certified Network Associate", code: "CCNA 200-301", year: "2026", status: "in-progress" },
+    { name: "Microsoft Certified: Azure Administrator Associate", code: "AZ-104", year: "2026", status: "earned" },
+    { name: "Microsoft Certified: Azure Fundamentals", code: "AZ-900", year: "2025", status: "earned" },
+    { name: "Google Cybersecurity Professional Certificate", code: "GOOG-CYB", year: "2025", status: "earned" },
+    { name: "LPI Linux Essentials", code: "LPI-LE", year: "2025", status: "earned" },
+    { name: "Certified LogicMonitor Associate", code: "LM-A", year: "2025", status: "earned" },
   ],
 
   skills: [
