@@ -1,0 +1,25 @@
+Christopher Wittman
+Hummelstown, PA | (319) 450-3926 | wittceec@gmail.com | https://wittceec.github.io/
+PROFESSIONAL EXPERIENCE
+Information Systems Operations — Penn State Health | 2025 – Present
+Managed and maintained physical and virtual server infrastructure across multiple data centers, ensuring 99.9%+ uptime through proactive monitoring, patching, and incident response.
+Streamlined provisioning and operational workflows using automation tools and scripting, reducing manual effort and cutting deployment timelines significantly.
+Developed internal tools and applications using Microsoft Power Platform (Power Apps, Power Automate) to improve data center operations processes such as visitor tracking, asset management, and workflow approvals.
+IT Operations Analyst — WellSpan Health | 2024 – 2025
+Proactively monitored network performance across distributed hospital and clinic sites using SCOM and SolarWinds Orion, ensuring consistent connectivity for end-users. 
+Escalated and resolved high-priority incidents within SLAs, documenting root causes to improve future shift-hand-off efficiency and knowledge base accuracy. 
+IT Technician — Nordstrom Fulfillment Center | 2023 – 2024
+Managed the deployment, imaging, and maintenance of workstations, scanners, and wireless access points, ensuring maximum uptime for warehouse logistics. 
+Delivered Tier 2 technical support for hardware and network connectivity issues, serving as the primary on-site resource for operational continuity.
+CERTIFICATIONS
+Microsoft Certified Azure Administrator Associate
+Microsoft Certified: Azure Fundamentals
+LPI Linux Essentials
+Google Cybersecurity Professional Certificate
+Certified LogicMonitor Associate
+EDUCATION
+Bachelor of Science in Information Technology — University of Phoenix • 2022
+TECHNICAL PROJECTS &amp; AUTOMATION
+• Custom Visitor Intake App (Power Platform): Built a Power Apps/Automate solution to streamline visitor data entry and check-in notifications, replacing manual logging processes.
+• Infrastructure Automation Scripts (PowerShell): Created and deployed custom PowerShell scripts to automate routine administrative tasks and system checks, reducing manual repetition and improving consistency in task execution.
+• Azure Cloud Lab Environment: Deployed a personal Azure environment to practice hybrid networking, resource group management, and RBAC policies in preparation for the AZ-104 exam.
