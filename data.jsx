@@ -15,17 +15,17 @@ const SITE = {
     line1: ["Infrastructure", "operator"],
     line2: ["who", "ships", "things."],
     blurb:
-      "I keep enterprise data centers running and build software on the side — an iOS fitness tracker, a network simulator, a budgeting app, a roguelike. Currently studying for the CCNA and turning my home lab into a sandbox.",
+      "I engineer and automate enterprise infrastructure — managing servers, networks, and cloud environments. On the side, I build native iOS and full-stack web applications. Currently studying for the CCNA and turning my home lab into a sandbox.",
   },
 
   now: {
     headline: ["What I'm working on", "right now."],
     items: [
       { idx: "01", label: "Studying for CCNA 200-301", sub: "Subnetting drills, OSPF labs, packet captures", stat: "IN PROGRESS" },
-      { idx: "02", label: "Vector Gains v1.7", sub: "iOS fitness tracker — refining workout logging", stat: "SHIPPED" },
-      { idx: "03", label: "Network Simulator", sub: "Browser-native, Packet-Tracer-style topology builder", stat: "ALPHA" },
-      { idx: "04", label: "Budget App", sub: "Personal banking + envelope budgeting on the web", stat: "BUILDING" },
-      { idx: "05", label: "Roguelike D&D", sub: "Turn-based, procedural dungeons, dice mechanics", stat: "PROTOTYPING" },
+      { idx: "02", label: "Vector Gains", sub: "iOS fitness tracker — progressive overload visualization", stat: "SHIPPED" },
+      { idx: "03", label: "Vector Wealth", sub: "iOS stock sandbox app for portfolio testing", stat: "SHIPPED" },
+      { idx: "04", label: "Vector Recall", sub: "Markdown-based note-taking web application", stat: "SHIPPED" },
+      { idx: "05", label: "Network Simulator", sub: "Browser-native, Packet-Tracer-style topology builder", stat: "ALPHA" },
     ],
     ccna: {
       tag: "CURRENT FOCUS",
@@ -42,12 +42,12 @@ const SITE = {
 
   about: {
     paragraphs: [
-      "I'm an IT operations engineer at Penn State Health, where I keep physical and virtual server infrastructure online for hospitals across central Pennsylvania.",
-      "Outside work I write code — iOS, web, game prototypes — because the fastest way to learn a stack is to ship something on it.",
+      "I'm an Infrastructure Systems Engineer at Penn State Health, where I automate workflows and manage both physical and virtual server environments to ensure high availability for hospitals across central Pennsylvania.",
+      "My day-to-day involves scripting with PowerShell, managing access controls, network equipment provisioning, and system monitoring. Outside work, I build full-stack web and native iOS apps to constantly expand my technical footprint.",
     ],
     meta: [
       { k: "BASED", v: "Hummelstown, PA" },
-      { k: "FOCUS", v: "Infra · Networking · iOS" },
+      { k: "FOCUS", v: "Systems · Networking · Cloud" },
       { k: "AVAILABLE", v: "Open to chat" },
     ],
   },
@@ -55,12 +55,13 @@ const SITE = {
   experience: [
     {
       year: "2025 — NOW",
-      role: "Information Systems Operations",
+      role: "Systems Administrator",
       co: "Penn State Health",
       bullets: [
-        "Maintain physical and virtual server infrastructure across multiple data centers — 99.9%+ uptime.",
-        "Built Power Apps / Power Automate solutions for visitor intake, asset management, and approvals.",
-        "Wrote PowerShell automation that cut routine provisioning timelines significantly.",
+        "Administer and patch enterprise Windows/Linux server fleets, ensuring 99.9%+ uptime across distributed data centers.",
+        "Develop PowerShell scripts to automate routine system administration, access control provisioning, and network migrations.",
+        "Engineer low-code solutions via Power Apps and Power Automate to digitize asset management and visitor workflows.",
+        "Provision, monitor, and decommission network hardware, including access points, printers, and switches.",
       ],
     },
     {
@@ -68,8 +69,8 @@ const SITE = {
       role: "IT Operations Analyst",
       co: "WellSpan Health",
       bullets: [
-        "Monitored network performance across hospital and clinic sites with SCOM and SolarWinds Orion.",
-        "Resolved high-priority incidents within SLA; documented root causes for shift hand-offs.",
+        "Spearheaded enterprise infrastructure monitoring using SCOM and SolarWinds Orion across multiple hospital campuses.",
+        "Executed rapid incident response and root-cause analysis for mission-critical network and server outages, minimizing downtime.",
       ],
     },
     {
@@ -77,8 +78,8 @@ const SITE = {
       role: "IT Technician",
       co: "Nordstrom Fulfillment Center",
       bullets: [
-        "Deployed and maintained workstations, scanners, and wireless APs for warehouse logistics.",
-        "Tier 2 support for hardware and network connectivity — primary on-site resource for ops continuity.",
+        "Engineered reliable on-site network connectivity by deploying and managing hundreds of wireless APs and operational endpoints.",
+        "Acted as the primary escalation point for Tier 2 hardware and systems troubleshooting, ensuring zero downtime for logistics.",
       ],
     },
   ],
@@ -89,7 +90,7 @@ const SITE = {
       kind: "iOS APP · LIVE",
       title: "Vector Gains",
       desc: "Workout tracking that visualizes progressive overload as a vector across time. Native SwiftUI, on-device only.",
-      tags: ["SwiftUI", "iOS 17+", "Charts", "HealthKit"],
+      tags: ["SwiftUI", "iOS", "Charts", "HealthKit"],
       cta: "Open in App Store",
       href: "https://apps.apple.com/us/app/vector-gains/id6761636655",
       span: "span-3",
@@ -97,6 +98,28 @@ const SITE = {
     },
     {
       num: "02",
+      kind: "iOS APP · LIVE",
+      title: "Vector Wealth",
+      desc: "Stock sandbox application for portfolio testing and simulation. Track assets and visualize wealth distribution. Native SwiftUI.",
+      tags: ["SwiftUI", "iOS", "Finance"],
+      cta: "Open in App Store",
+      href: "https://apps.apple.com/us/app/vector-wealth/id6767098201",
+      span: "span-3",
+      demo: "wealth",
+    },
+    {
+      num: "03",
+      kind: "WEB APP · LIVE",
+      title: "Vector Recall",
+      desc: "A sleek markdown note-taking web application with persistent storage, categorization, and seamless routing.",
+      tags: ["React", "Markdown", "Vercel"],
+      cta: "Try the app",
+      href: "https://vector-recall.vercel.app/",
+      span: "span-3",
+      demo: "recall",
+    },
+    {
+      num: "04",
       kind: "WEB APP · ALPHA",
       title: "Network Simulator",
       desc: "Drag-and-drop network topologies in the browser. Practice subnetting and routing without spinning up Packet Tracer.",
@@ -105,28 +128,6 @@ const SITE = {
       href: "https://my-network-simulator.vercel.app/",
       span: "span-3",
       demo: "netsim",
-    },
-    {
-      num: "03",
-      kind: "WEB APP · BUILDING",
-      title: "Budget Sheet",
-      desc: "Envelope budgeting with bank-feed sync. Forecast cash on hand and stress-test purchases before you make them.",
-      tags: ["React", "Plaid", "Postgres"],
-      cta: "Coming soon",
-      href: "#",
-      span: "span-2",
-      demo: "budget",
-    },
-    {
-      num: "04",
-      kind: "GAME · PROTOTYPE",
-      title: "Crypt of the Wittwyrm",
-      desc: "Turn-based roguelike with D&D-flavored dice mechanics. Procedural dungeons, permadeath, theatre-of-the-mind combat.",
-      tags: ["TypeScript", "Roguelike", "Procgen"],
-      cta: "Watch this space",
-      href: "#",
-      span: "span-4",
-      demo: "dnd",
     },
   ],
 
