@@ -2,7 +2,7 @@
 const SITE = {
   name: "Christopher Wittman",
   initials: "CW",
-  role: "Infrastructure Engineer × Builder",
+  role: "Systems Administrator × Cloud Enthusiast",
   location: "Hummelstown, PA",
   email: "wittceec@gmail.com",
   phone: "(319) 450-3926",
@@ -12,8 +12,8 @@ const SITE = {
 
   hero: {
     eyebrow: "PORTFOLIO / 2026",
-    line1: ["Infrastructure", "operator"],
-    line2: ["who", "ships", "things."],
+    line1: ["Systems", "administrator"],
+    line2: ["who", "automates", "infrastructure."],
     blurb:
       "I engineer and automate enterprise infrastructure — managing servers, networks, and cloud environments. On the side, I build native iOS and full-stack web applications. Currently studying for the CCNA and turning my home lab into a sandbox.",
   },
@@ -42,8 +42,8 @@ const SITE = {
 
   about: {
     paragraphs: [
-      "I'm an Infrastructure Systems Engineer at Penn State Health, where I automate workflows and manage both physical and virtual server environments to ensure high availability for hospitals across central Pennsylvania.",
-      "My day-to-day involves scripting with PowerShell, managing access controls, network equipment provisioning, and system monitoring. Outside work, I build full-stack web and native iOS apps to constantly expand my technical footprint.",
+      "I'm a Systems Administrator at Penn State Health, where I automate workflows and manage both on-premise physical servers and virtual environments to ensure high availability for hospitals across central Pennsylvania.",
+      "My day-to-day involves scripting with PowerShell, managing identities in Active Directory and Microsoft Entra ID, network equipment provisioning, and system monitoring. Outside work, I build full-stack web and native iOS apps to constantly expand my technical footprint.",
     ],
     meta: [
       { k: "BASED", v: "Hummelstown, PA" },
@@ -59,7 +59,7 @@ const SITE = {
       co: "Penn State Health",
       bullets: [
         "Administer and patch enterprise Windows/Linux server fleets, ensuring 99.9%+ uptime across distributed data centers.",
-        "Develop PowerShell scripts to automate routine system administration, access control provisioning, and network migrations.",
+        "Develop PowerShell scripts to automate routine system administration, network migrations, and Azure/Entra ID access controls.",
         "Engineer low-code solutions via Power Apps and Power Automate to digitize asset management and visitor workflows.",
         "Provision, monitor, and decommission network hardware, including access points, printers, and switches.",
       ],
