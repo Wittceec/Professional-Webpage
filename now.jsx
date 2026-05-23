@@ -64,21 +64,12 @@ function About() {
           </div>
         </Reveal>
         <Reveal as="div" className="about-body" stagger>
-          {S.about.paragraphs.map((p, i) => {
-            // emphasize one phrase per paragraph
-            if (i === 0) {
-              return (
-                <p key={i}>
-                  I'm an IT operations engineer at <em>Penn State Health</em>, where I keep physical and virtual server infrastructure online for hospitals across central Pennsylvania.
-                </p>
-              );
-            }
-            return (
-              <p key={i}>
-                Outside work I write code — iOS, web, game prototypes — because the fastest way to <em>learn a stack</em> is to ship something on it.
-              </p>
-            );
-          })}
+          <p>
+            I'm a Systems Administrator at <em>Penn State Health</em>, where I automate workflows and manage both on-premise physical servers and virtual environments to ensure high availability for hospitals across central Pennsylvania.
+          </p>
+          <p>
+            My day-to-day involves scripting with PowerShell, managing identities in Active Directory and <em>Microsoft Entra ID</em>, network equipment provisioning, and system monitoring. Outside work, I build full-stack web and native iOS apps to constantly <em>expand my technical footprint</em>.
+          </p>
           <p>
             I lean operational: monitoring, automation, root cause. But I get bored without a build queue, so there's always a side project compiling somewhere.
           </p>
